@@ -1,0 +1,13 @@
+Account
+has_many :projects
+name:string
+
+
+Projects
+belongs_to :accounts
+title:string
+description:string
+date:datetime
+contact:string
+accountid:integer
+
