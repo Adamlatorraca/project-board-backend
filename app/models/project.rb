@@ -1,5 +1,5 @@
 class Project < ApplicationRecord
-    belongs_to :account
+    belongs_to :user
 
     validates :title, presence: true
     validates :description, presence: true

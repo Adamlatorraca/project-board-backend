@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users
   #fetch localhost:3000/api/v1/whatever
 
   namespace :api do
